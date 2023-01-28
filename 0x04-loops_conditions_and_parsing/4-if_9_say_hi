@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script is printing best school ten times and hi after the 9th counter
+n=0
+while [ $n -lt 10 ]
+do
+    echo "Best School"
+    n=$(( n + 1 ))
+
+	if [ "$n" -eq 9 ]
+	then
+		echo "Hi"
+	fi
+done
