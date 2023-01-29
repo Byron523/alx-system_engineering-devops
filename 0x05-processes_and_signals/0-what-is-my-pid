@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This script prints out my current PID
+echo "$$"
